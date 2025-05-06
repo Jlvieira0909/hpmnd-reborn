@@ -44,7 +44,7 @@
 }
 
 .NavBarWrapper {
-  height: 240px;
+  height: 200px;
   padding: 0% 2%;
   display: flex;
   justify-content: center;
@@ -62,8 +62,8 @@
 }
 
 .FlavourImage {
-  height: 90px;
-  margin-top: 35px;
+  height: 70px;
+  margin-top: 25px;
 }
 
 .FlavourImage:last-child {
@@ -74,6 +74,7 @@
   display: flex;
   flex-direction: row;
   gap: 10%;
+  justify-content: center;
 }
 
 .LinkTo {
@@ -82,16 +83,16 @@
   justify-content: center;
   align-items: center;
   gap: 16px;
-  cursor: pointer;
   width: 100%;
 }
 
 .LinkImage {
-  height: 65px !important;
-  cursor: pointer;
+  height: 60px !important;
+  cursor: url("/images/CursorHover.png") 0 0, auto;
 }
 
-.LinkTo:hover .LinkText {
+.LinkImage:hover + .LinkText,
+.LinkText:hover {
   background: #ff8a8c;
   padding: 4px;
 }
@@ -102,6 +103,6 @@
   font-style: normal;
   font-size: 1.5em;
   padding: 4px;
-  cursor: pointer;
+  cursor: url("/images/CursorHover.png") 0 0, auto;
   width: 100%;
 }

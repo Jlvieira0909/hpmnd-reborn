@@ -8,11 +8,7 @@ export default function Home() {
     <div className="MainWrapper">
       <NavBar />
       <div className="MainContent">
-        <ASCIIText
-          text="Добро пожаловать"
-          enableWaves={true}
-          asciiFontSize={8}
-        />
+        <ASCIIText text="мы повсюду" enableWaves={true} asciiFontSize={8} />
       </div>
     </div>
   );

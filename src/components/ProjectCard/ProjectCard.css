@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Bytesized&family=Press+Start+2P&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Unbounded:wght@200..900&display=swap");
+
+.ProjectCardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  width: 25%;
+}
+
+.ProjectNumber {
+  font-family: "Space Mono", monospace;
+}
+
+.ProjectName {
+  font-family: "Unbounded", sans-serif;
+}
+
+.ProjectImage {
+}
+
+.ProjectDescription {
+  font-family: "Unbounded", sans-serif;
+}
