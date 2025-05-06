@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Bytesized&family=Press+Start+2P&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Unbounded:wght@200..900&display=swap");
+
+.bytesized-regular {
+  font-family: "Bytesized", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unbounded {
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.NavBarWrapper {
+  height: 240px;
+  padding: 0% 2%;
+  display: flex;
+  justify-content: center;
+  background: url("/images/NavBar/NavBarBg.png");
+  background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição */
+}
+
+.NavBarContent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.FlavourImage {
+  height: 90px;
+  margin-top: 35px;
+}
+
+.FlavourImage:last-child {
+  transform: scaleX(-1);
+}
+
+.NavBarNavigation {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
+.LinkTo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.LinkImage {
+  height: 65px !important;
+  cursor: pointer;
+}
+
+.LinkTo:hover .LinkText {
+  background: #ff8a8c;
+  padding: 4px;
+}
+
+.LinkText {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+  padding: 4px;
+  cursor: pointer;
+  width: 100%;
+}

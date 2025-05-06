@@ -1,0 +1,15 @@
+* {
+  cursor: url("/images/Cursor.png"), auto;
+}
+
+.MainWrapper {
+  background: url("/images/Background.png");
+  background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição */
+  height: 100vh;
+}
+
+.MainContent {
+  width: 100%;
+}
