@@ -14,7 +14,7 @@ export default function Projects() {
             ProjectImage="/images/Projects/ArtGallery.png"
             ProjectName='The "Art" Gallery'
             ProjectNumber="#1"
-            href="/"
+            href="https://thegallery-inky.vercel.app"
           />
           {/* <ProjectCard
             ProjectDescription="Nothing to see here bro"
