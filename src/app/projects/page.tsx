@@ -10,13 +10,13 @@ export default function Projects() {
       <div className="MainContent">
         <div className="ProjectsContainer">
           <ProjectCard
-            ProjectDescription="Nothing to see here bro"
-            ProjectImage="/"
+            ProjectDescription="This is what y'all been calling art??"
+            ProjectImage="/images/Projects/ArtGallery.png"
             ProjectName='The "Art" Gallery'
             ProjectNumber="#1"
             href="/"
           />
-          <ProjectCard
+          {/* <ProjectCard
             ProjectDescription="Nothing to see here bro"
             ProjectImage="/"
             ProjectName='The "Art" Gallery'
@@ -29,7 +29,7 @@ export default function Projects() {
             ProjectName='The "Art" Gallery'
             ProjectNumber="#3"
             href="/"
-          />
+          /> */}
         </div>
       </div>
     </div>
