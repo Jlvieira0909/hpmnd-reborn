@@ -12,4 +12,49 @@
 
 .MainContent {
   width: 100%;
+  z-index: 99999;
+  width: 100vw;
+  height: 100vh;
+}
+
+.BackgroundStuff {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0 !important;
+}
+
+.ImageCroc {
+  position: fixed;
+  left: 20;
+  top: 280;
+  rotate: -25deg;
+}
+
+.ImageCat {
+  position: fixed;
+  left: 300;
+  top: 200;
+  rotate: 25deg;
+}
+
+.ImageReaper {
+  position: fixed;
+  left: 1000;
+  top: 250;
+  rotate: 10deg;
+}
+
+.ImageShock {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  rotate: 0deg;
+}
+
+.ImageMummy {
+  position: fixed;
+  right: -200;
+  bottom: 200;
+  rotate: 280deg;
 }

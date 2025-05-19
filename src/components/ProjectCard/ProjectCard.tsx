@@ -21,7 +21,7 @@ export default function ProjectCard({
     <div className="ProjectCardWrapper">
       <h3 className="ProjectNumber">Hypemind.inc drop {ProjectNumber}</h3>
       <h1 className="ProjectName">{ProjectName}</h1>
-      <Link href={href}>
+      <Link href={href} target="_blank" rel="noopener noreferrer">
         <Image
           className="ProjectImage"
           src={ProjectImage}

@@ -1,0 +1,28 @@
+.MainWrapper {
+  background: url("/images/Background.png");
+  background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição */
+  height: 100vh;
+}
+
+.MainContent {
+  width: 100%;
+  z-index: 99999;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.GameboyImage {
+  z-index: 2;
+}
+
+.GameboyGif {
+  margin-top: 3%;
+  width: 23%;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+}
