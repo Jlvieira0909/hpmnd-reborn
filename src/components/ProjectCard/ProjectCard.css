@@ -37,6 +37,7 @@
   margin-top: 2%;
   height: 90%;
   width: 95%;
+  cursor: url("/images/CursorHover.png") 0 0, auto;
 }
 
 .ProjectDescription {

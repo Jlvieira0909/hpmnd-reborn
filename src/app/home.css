@@ -13,14 +13,12 @@
 .MainContent {
   width: 100%;
   z-index: 99999;
-  width: 100vw;
-  height: 100vh;
 }
 
 .BackgroundStuff {
   position: fixed;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   z-index: 0 !important;
 }
 
@@ -33,8 +31,8 @@
 
 .ImageCat {
   position: fixed;
-  left: 300;
-  top: 200;
+  left: 600;
+  top: 250;
   rotate: 25deg;
 }
 
@@ -57,4 +55,32 @@
   right: -200;
   bottom: 200;
   rotate: 280deg;
+}
+
+.ImageHand {
+  position: fixed;
+  left: 700;
+  bottom: 50;
+  rotate: 320deg;
+}
+
+.ImageButterfly {
+  position: fixed;
+  left: 1200;
+  bottom: 100;
+  rotate: -5deg;
+}
+
+.ImageGhostBusters {
+  position: fixed;
+  left: 1300;
+  bottom: 450;
+  rotate: -5deg;
+}
+
+.ImageSkull {
+  position: fixed;
+  left: 300;
+  bottom: 250;
+  rotate: -5deg;
 }

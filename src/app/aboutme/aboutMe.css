@@ -1,28 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Bytesized&family=Press+Start+2P&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Unbounded:wght@200..900&display=swap");
+
+.bytesized-regular {
+  font-family: "Bytesized", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unbounded {
+}
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .MainWrapper {
   background: url("/images/Background.png");
   background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
   background-position: center; /* Centraliza a imagem */
   background-repeat: no-repeat; /* Evita repetição */
-  height: 100vh;
+  height: 150vh;
 }
 
-.MainContent {
+.MainContentAboutMe {
   width: 100%;
   z-index: 99999;
   width: 100vw;
-  height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  margin-top: 1.5em !important;
+  height: 0;
+}
+
+.aboutMeContent {
+  width: 40%;
+  padding: 3% 2%;
+  height: 75vh;
+  background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição */
+}
+
+.AboutUsTextBG {
+  position: absolute;
+  top: 220px;
+  margin-left: -150px;
+  z-index: 1 !important;
+}
+
+.aboutMeContentWrapper {
+  z-index: 2 !important;
+  position: relative;
+  margin-left: -270px;
+  padding-top: 10px;
+  justify-content: center !important;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.AboutMeTitle {
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2.6em;
+  color: #000000;
+  text-align: center !important;
+  margin-bottom: 0.5em;
+}
+
+.AboutMeText {
+  color: #000000;
+  font-size: 2em;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+  display: flex;
+  width: 68% !important;
+  text-align: center;
+}
+
+.GameboyContainer {
+}
+
+.AboutMeButtons {
+  z-index: 200 !important;
+  position: relative;
+  margin-top: 30em;
+  gap: 2em !important;
+  display: flex;
+}
+
+.AboutMeButtons button {
+  width: 70px;
+  height: 70px;
+  /* background: transparent; */
+  outline: none !important;
+  border: none !important;
+  border-radius: 99999px;
 }
 
 .GameboyImage {
+  position: absolute;
   z-index: 2;
+  right: 200px;
+  bottom: -50px;
 }
 
 .GameboyGif {
   margin-top: 3%;
-  width: 23%;
+  width: 22%;
   height: auto;
   position: absolute;
   z-index: 1;
+  right: 250px;
+  bottom: 220px;
 }

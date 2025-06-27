@@ -15,15 +15,15 @@ export default function Home() {
         <Image
           className="ImageCroc"
           alt=""
-          height={150}
-          width={250}
+          height={250}
+          width={400}
           src="/images/Random/Croc.png"
         />
         <Image
           className="ImageCat"
           alt=""
-          height={150}
-          width={150}
+          height={200}
+          width={200}
           src="/images/Random/MadCat.png"
         />
         <Image
@@ -46,6 +46,34 @@ export default function Home() {
           height={300}
           width={580}
           src="/images/Random/Mummy.png"
+        />
+        <Image
+          className="ImageHand"
+          alt=""
+          height={380}
+          width={200}
+          src="/images/Random/WireHand.png"
+        />
+        <Image
+          className="ImageButterfly"
+          alt=""
+          height={250}
+          width={300}
+          src="/images/Random/Butterfly.png"
+        />
+        <Image
+          className="ImageGhostBusters"
+          alt=""
+          height={250}
+          width={300}
+          src="/images/Random/GhostBusters.png"
+        />
+        <Image
+          className="ImageSkull"
+          alt=""
+          height={300}
+          width={300}
+          src="/images/Random/Skull.png"
         />
       </div>
       <div className="MainContent">

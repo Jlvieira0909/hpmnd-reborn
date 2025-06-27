@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className="MainWrapper">
       <NavBar />
-      <div className="MainContent"></div>
+      <div className="MainContentContact"></div>
     </div>
   );
 }
