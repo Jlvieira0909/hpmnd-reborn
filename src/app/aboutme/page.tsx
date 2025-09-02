@@ -19,9 +19,9 @@ export default function AboutMe() {
     },
     2: {
       text1:
-        "I'm also passionate about exploring new mediums like digital art, animation, and interactive experiences.",
+        "I also love exploring new ways to create art, whether it's through digital art, animation, or interactive experiences.",
       text2:
-        "Through my work, I aim to challenge the norms and spark creativity in others, no matter their background.",
+        "I just want to make everything that I create challenge what people conceive as ordinary or normal",
       gifImage: "/gifs/Knight.gif",
     },
     3: {
