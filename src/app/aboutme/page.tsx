@@ -4,6 +4,7 @@ import "./aboutMe.css";
 import Image from "next/image";
 import { useState } from "react";
 import NavBar from "@/components/NavBar/NavBar";
+import BackgroundAudio from "@/components/BackgroundAudio/BackgroundAudio";
 
 export default function AboutMe() {
   const aboutTexts: Record<
@@ -19,23 +20,23 @@ export default function AboutMe() {
     },
     2: {
       text1:
-        "I also love exploring new ways to create art, whether it's through digital art, animation, or interactive experiences.",
+        "That's a great question actually! I'm an artist who always had an urge to create things out of the ordinary. I love to bring this kind of 'rebel punk' style to everything that I create.",
       text2:
-        "I just want to make everything that I create challenge what people conceive as ordinary or normal",
+        "My only goal in life is to inspire other people — inspire them to create, to rebel, to question everything, to rise on top of everything they want, and to just be themselves.",
       gifImage: "/gifs/Knight.gif",
     },
     3: {
       text1:
-        "I believe that art is for everyone. You don’t need permission to start creating.",
+        "That's a great question actually! I'm an artist who always had an urge to create things out of the ordinary. I love to bring this kind of 'rebel punk' style to everything that I create.",
       text2:
-        "Let’s break the walls, ignore the rules, and paint outside the lines — always.",
+        "My only goal in life is to inspire other people — inspire them to create, to rebel, to question everything, to rise on top of everything they want, and to just be themselves.",
       gifImage: "/gifs/Reaper.gif",
     },
     4: {
       text1:
-        "This project is just the beginning. The future holds more rebellion, more inspiration, more chaos — and more fun.",
+        "That's a great question actually! I'm an artist who always had an urge to create things out of the ordinary. I love to bring this kind of 'rebel punk' style to everything that I create.",
       text2:
-        "Thanks for being part of the journey. Now go make something weird!",
+        "My only goal in life is to inspire other people — inspire them to create, to rebel, to question everything, to rise on top of everything they want, and to just be themselves.",
       gifImage: "/gifs/Void.gif",
     },
   };
@@ -55,6 +56,7 @@ export default function AboutMe() {
 
   return (
     <div className="MainWrapper">
+      <BackgroundAudio />
       <NavBar />
       <div className="MainContentAboutMe">
         <div className="aboutMeContent">

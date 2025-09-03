@@ -2,11 +2,14 @@ import ProjectCard from "@/components/ProjectCard/ProjectCard";
 import "./projects.css";
 
 import NavBar from "@/components/NavBar/NavBar";
+import BackgroundAudio from "@/components/BackgroundAudio/BackgroundAudio";
 
 export default function Projects() {
   return (
     <div className="MainWrapper">
       <NavBar />
+      <BackgroundAudio />
+
       <div className="MainContent">
         <div className="ProjectsContainer">
           <ProjectCard
@@ -16,7 +19,7 @@ export default function Projects() {
             ProjectNumber="#1"
             href="https://thegallery-inky.vercel.app"
           />
-          {/* <ProjectCard
+          <ProjectCard
             ProjectDescription="Nothing to see here bro"
             ProjectImage="/"
             ProjectName='The "Art" Gallery'
@@ -29,7 +32,7 @@ export default function Projects() {
             ProjectName='The "Art" Gallery'
             ProjectNumber="#3"
             href="/"
-          /> */}
+          />
         </div>
       </div>
     </div>

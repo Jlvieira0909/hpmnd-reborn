@@ -4,6 +4,7 @@ import Image from "next/image";
 import NavBar from "@/components/NavBar/NavBar";
 import ASCIIText from "../components/AsciiText/AsciiText";
 import BackgroundAudio from "@/components/BackgroundAudio/BackgroundAudio";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -79,6 +80,7 @@ export default function Home() {
       <div className="MainContent">
         <ASCIIText text="мы повсюду" enableWaves={true} asciiFontSize={8} />
       </div>
+      <Footer />
     </div>
   );
 }
